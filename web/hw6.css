@@ -1,0 +1,175 @@
+body{font-family: tahoma; 
+     color: #FFFFFF; 
+     background-color: #a77f5d;
+     text-align: center;
+     margin: 0%;}
+h1{text-align: center;
+   color: #696969;}
+a{color: #696969;}
+a:hover{
+    color:#F08080;
+}
+
+.warning{
+    font-size: 10px;
+    color: #696969;
+}
+.center{
+    margin-left: 50px;
+}
+.wrap{text-align: center; 
+      width: 95%; 
+      margin: 0 auto; 
+      border: 4px solid black;
+      margin-top: 25px;
+      margin-bottom: 25px;
+    color: black;
+} /* css for update page*/
+
+.header{background-color: #D2B48C;
+        text-align: left;
+        padding: 25px;
+}
+.headerimg{
+    text-align: center;
+    float: left;
+    width: 200px;
+}
+.headerimg2{
+    text-align: center;
+    float: right;
+    width: 200px; 
+}
+.headertitle{
+    float: left;
+    height: 105px;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #FFFF99;
+    border-radius: 10px;
+    color: black;
+} /* css for header portion*/
+
+.main{background-color: #D2B48C;
+      text-align: left; 
+      padding: 25px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer{background-color: #D2B48C;
+        text-align: left;
+        padding: 25px;
+        color: #696969;
+}
+
+
+
+table, th{vertical-align: middle; 
+          border: 6px solid #FFFFFF;}
+
+table{border-collapse: collapse; 
+      background-color: #F08080; 
+      width: 100%;}
+th{padding-top: 4px; 
+   padding-bottom: 4px; 
+   color: #696969; 
+   background-color: #FFFF99; 
+   border: 1px solid #FFFFFF; 
+   height: 20px;}
+td{vertical-align: middle;
+   padding: 3px; 
+   height: 25px; 
+   border: 1px solid #FFFFFF;}
+tr:nth-child(odd) {background-color: #EDEDED; 
+                   color: #696969;}
+tr:hover {background-color: #CCCCCC;}
+
+.addpage input[type="text"]{
+    box-sizing: border-box;
+    background-color: #FFFF99;
+    margin-bottom: 2%;
+    border: 1px solid #696969;
+    height: 30px;
+    padding: 8px;
+}
+
+.addpage input[type="text"]:focus{
+    box-shadow: 5px #F08080;
+    padding: 8px;
+    border: 1px solid blue;
+}
+
+.addpage input[readonly]{
+    background-color: #cccccc;
+}
+
+.addpage input[readonly]:focus{
+    background-color: #cccccc;
+    border: 1px solid #696969;
+}
+
+.buttons input[type="reset"]{
+    background-color: white;
+    font-family: tahoma;
+    font-size: 12px;
+    padding: 8px;
+    border: 2px solid #696969;
+    border-radius: 10px;
+}
+
+.buttons input[type="submit"]{
+    border: 2px solid green;
+    background-color: white;
+    font-family: tahoma;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 10px;   
+}
+
+
+
+
+.navcontainer { margin-left: 0px; text-align: left; background-color: #EDEDED;}
+ 
+/*Fat Erik's Pipelist*/
+.navlist
+{
+list-style: none;
+padding-top: 8px;
+padding-bottom: 8px;
+margin: 0;
+}
+
+.navlist li
+{
+display: inline;
+padding: 0;
+margin: 0;
+}
+
+.navlist li:before { content: "| "; }
+.navlist li:first-child:before { content: ""; }
+
+/*IE workaround*/
+/*All IE browsers*/
+* html #navlist li
+{
+border-left: 1px solid black;
+padding: 0 0.4em 0 0.4em;
+margin: 0 0.4em 0 -0.4em;
+}
+
+/*Win IE browsers - hide from Mac IE\*/
+* html #navlist { height: 1%; }
+
+* html #navlist li
+{
+display: block;
+float: left;
+}
+
+/*End hide*/
+/*Mac IE 5*/
+* html #navlist li:first-child { border-left: 0; }
