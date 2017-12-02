@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Matt Bentley Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -58,7 +58,7 @@
         <img class="img-fluid mb-5 d-block mx-auto" src="img/wall.png" alt="">
         <h1 class="text-uppercase mb-0">Matt Bentley</h1>
         <hr class="star-light">
-        <h2 class="font-weight-light mb-0">BAIS Student - Accounting Internal Auditor - Traveler</h2>
+        <h2 class="font-weight-light mb-0">BAIS Student - Internal IT Auditor - Traveler</h2>
       </div>
     </header>
 
@@ -85,7 +85,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/wall.png" alt="">
+              <img class="img-fluid" src="img/MBclass,model_diagrams.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -95,7 +95,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/wall.png" alt="">
+              <img class="img-fluid" src="img/MB_Wireframe.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -105,9 +105,44 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/wall.png" alt="">
+              <img class="img-fluid" src="img/searchdiagram.png" alt="">
             </a>
           </div>
+        </div>
+        <h2 class="text-center text-uppercase text-secondary mb-0">Homework Links</h2>
+        <hr class="star-dark mb-5">
+        <h5>Homework Lessons and Features&#x1F601;</h5><br>
+        HW3 is a simple salary calculator and one of my 
+        first actual HTML webpages. It gave a simple breakdown of a salary and included some minor financial calculations.<br><br>
+        HW4 is the beginning of a "build-upon" database assignment. It taught me how to establish a connection to a DB 
+        using servlets and queries, as well as implement the "read" or view feature for the website.<br><br>
+        HW5 adds alot of meat to the bones of the website. Foremost, I added much needed CSS to make the DB look nicer,
+        in addition to making the UI better. As for features added this go around, I created an add user form and a delete button.
+        This allows users to manipulate data with only having access to the web interface.<br><br>
+        HW6 is the final culmination of database features and overall software architecture. 
+        This assignment taught me how to layout webpages and create a wireframe design for them. This allows for a seemless
+        transition between links and builds familiarity with a website's structure. I also created features
+        such as an update form and even a search form for the web users. To add the cherry on top of this assignment,
+        I added many smaller features like a delete button poke-yoke and link highlighting which helps further the UI's friendliness.
+        <br><br>
+        <div class="row">
+            <a class="btn btn-xl btn-light" href="http://f17-msci3300-03.azurewebsites.net/HW3/">
+            &nbsp;&nbsp;&nbsp;<i class="fa fa-link"></i>
+            HW3&nbsp;&nbsp;&nbsp;
+            </a>
+            <a class="btn btn-xl btn-light" href="http://f17-msci3300-03.azurewebsites.net/hw4/">
+            &nbsp;&nbsp;&nbsp;<i class="fa fa-link"></i>
+            HW4&nbsp;&nbsp;&nbsp;
+            </a>
+            <a class="btn btn-xl btn-light" href="http://f17-msci3300-03.azurewebsites.net/hw5/">
+            &nbsp;&nbsp;&nbsp;<i class="fa fa-link"></i>
+            HW5&nbsp;&nbsp;&nbsp;
+            </a>
+            <a class="btn btn-xl btn-light" href="http://f17-msci3300-03.azurewebsites.net/hw6/">
+            &nbsp;&nbsp;&nbsp;<i class="fa fa-link"></i>
+            HW6&nbsp;&nbsp;&nbsp;
+            </a>
+            
         </div>
       </div>
     </section>
@@ -119,18 +154,13 @@
         <hr class="star-light mb-5">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p class="lead">Hello, my name is Matt Bentley and this is a portfolio of software created by me. The work included on this page is from my experience at the University of Iowa and highlights different uses of databases, frameworks, and servers. Although this isn't a complete portfolio, I will do my best to update it.</p>
+            <p class="lead">Hello, my name is Matt Bentley and I hope you enjoyed viewing the portfolio created by me. The work included on this page is from my experience at the University of Iowa and highlights different uses of databases, frameworks, and servers. Although this isn't a complete portfolio, I will do my best to update it.</p>
           </div>
           <div class="col-lg-4 mr-auto">
             <p class="lead">Feel free to contact me with any information or feedback as well. This is meant to be a location to display my work so I will take any criticism positively. You can also find the links to my different social media accounts and resume at the bottom of the page.</p>
           </div>
         </div>
-        <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="#">
-            <i class="fa fa-download mr-2"></i>
-            Download Now!
-          </a>
-        </div>
+        
       </div>
     </section>
 
@@ -269,7 +299,7 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Class and Database Diagrams</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/MBclass,model_diagrams.pdf" alt="">
+              <img class="img-fluid mb-5" src="img/MBclass,model_diagrams.png" alt="">
               <p class="mb-5">I started off hand drawing my ERD and class diagrams, which later changed as I switched to Visio</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
@@ -291,9 +321,9 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Screen Sketches, Storyboards, and Wireframe Diagram</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/MB_Wireframe.pdf" alt="">
-              <img class="img-fluid mb-5" src="img/MBstoryboard_and_read_diagrams.pdf" alt="">
-              <p class="mb-5">Displaying my group project's wireframe, as it is identical to my own besides the logo. Screen sketches are actually included in the dataflow diagrams, reference screen sketches on the next project. Storyboard is at the top of the second photo, still hand written.</p>
+              <img class="img-fluid mb-5" src="img/MBstoryboard_and_read_diagrams.png" alt="">
+              <img class="img-fluid mb-5" src="img/MB_Wireframe.png" alt="">
+              <p class="mb-5"> Screen sketches are actually included in the storyboard diagram, reference screen sketches on the next project's data diagrams as well. Storyboard is at the top of the second photo, still hand written. Displaying my group project's wireframe in the third photo, as it is identical to my own besides the logo.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -314,10 +344,10 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Dataflow Diagrams</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
-              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
-              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
-              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
+              <img class="img-fluid mb-5" src="img/diagramaddfuncMatt.png" alt=""><hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/diagramdeleteMatt.png" alt=""><hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/searchdiagram.png" alt=""><hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/updatediagramMB.png" alt="">
               <p class="mb-5">Finally converted to Visio. These diagrams show the update and delete functionality, among others. Screen sketches are included as apart of the dataflow diagrams.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
