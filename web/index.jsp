@@ -75,11 +75,9 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/wall.png" alt="">
+              <img class="img-fluid" src="img/userstory.png" alt="">
             </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-search-plus fa-3x"></i>
@@ -109,9 +107,27 @@
             </a>
           </div>
         </div>
+        
         <h2 class="text-center text-uppercase text-secondary mb-0">Homework Links</h2>
         <hr class="star-dark mb-5">
-        <h5>Homework Lessons and Features&#x1F601;</h5><br>
+            <a class="btn btn-xl btn-light" href="http://f17-msci3300-03.azurewebsites.net/HW3/" target="_blank">
+            &nbsp;&nbsp;&nbsp;<i class="fa fa-link"></i>
+            HW3&nbsp;&nbsp;&nbsp;
+            </a>
+            <a class="btn btn-xl btn-light" href="http://f17-msci3300-03.azurewebsites.net/hw4/" target="_blank">
+            &nbsp;&nbsp;&nbsp;<i class="fa fa-link"></i>
+            HW4&nbsp;&nbsp;&nbsp;
+            </a>
+            <a class="btn btn-xl btn-light" href="http://f17-msci3300-03.azurewebsites.net/hw5/" target="_blank">
+            &nbsp;&nbsp;&nbsp;<i class="fa fa-link"></i>
+            HW5&nbsp;&nbsp;&nbsp;
+            </a>
+            <a class="btn btn-xl btn-light" href="http://f17-msci3300-03.azurewebsites.net/hw6/" target="_blank">
+            &nbsp;&nbsp;&nbsp;<i class="fa fa-link"></i>
+            HW6&nbsp;&nbsp;&nbsp;
+            </a>
+        <br><br>
+        <h5>Homework Lessons and Features&#x1F601;</h5>
         HW3 is a simple salary calculator and one of my 
         first actual HTML webpages. It gave a simple breakdown of a salary and included some minor financial calculations.<br><br>
         HW4 is the beginning of a "build-upon" database assignment. It taught me how to establish a connection to a DB 
@@ -124,26 +140,7 @@
         transition between links and builds familiarity with a website's structure. I also created features
         such as an update form and even a search form for the web users. To add the cherry on top of this assignment,
         I added many smaller features like a delete button poke-yoke and link highlighting which helps further the UI's friendliness.
-        <br><br>
-        <div class="row">
-            <a class="btn btn-xl btn-light" href="http://f17-msci3300-03.azurewebsites.net/HW3/">
-            &nbsp;&nbsp;&nbsp;<i class="fa fa-link"></i>
-            HW3&nbsp;&nbsp;&nbsp;
-            </a>
-            <a class="btn btn-xl btn-light" href="http://f17-msci3300-03.azurewebsites.net/hw4/">
-            &nbsp;&nbsp;&nbsp;<i class="fa fa-link"></i>
-            HW4&nbsp;&nbsp;&nbsp;
-            </a>
-            <a class="btn btn-xl btn-light" href="http://f17-msci3300-03.azurewebsites.net/hw5/">
-            &nbsp;&nbsp;&nbsp;<i class="fa fa-link"></i>
-            HW5&nbsp;&nbsp;&nbsp;
-            </a>
-            <a class="btn btn-xl btn-light" href="http://f17-msci3300-03.azurewebsites.net/hw6/">
-            &nbsp;&nbsp;&nbsp;<i class="fa fa-link"></i>
-            HW6&nbsp;&nbsp;&nbsp;
-            </a>
-            
-        </div>
+        <br>
       </div>
     </section>
 
@@ -277,7 +274,7 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">User Stories</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
+              <img class="img-fluid mb-5" src="img/userstory.png" alt="">
               <p class="mb-5">User Stories for how the project will be completed.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
